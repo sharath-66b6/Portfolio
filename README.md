@@ -2,7 +2,7 @@
 
 Welcome to my portfolio! 🚀 I am Sharath Kumar Reddy, a passionate **Software Engineer** focused on **AI**, **Machine Learning**, and **Full-Stack Development**. Here, you’ll find my work, projects, and the technologies I use to create impactful solutions.
 
-![Image](c:\Users\user\Downloads\screencapture-localhost-3002-2025-04-09-01_22_29.png)
+![Image](public/image/demo.png)
 
 🌐 Check out my live portfolio:
 - [Sharath Kumar Reddy Portfolio](https://sharathkumar.netlify.app/)
@@ -78,7 +78,7 @@ Here are some of the exciting projects I’ve worked on:
 
 ## 💬 Let's Connect!
 
-- 🐦 **Twitter:** [@Anubhav_Chatu](https://x.com/Sharath56567820)
+- 🐦 **Twitter:** [@Sharath](https://x.com/Sharath56567820)
 
 Feel free to reach out for collaborations, open-source contributions, or just to chat about tech! 🚀
 
