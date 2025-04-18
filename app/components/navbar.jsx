@@ -9,7 +9,7 @@ function Navbar() {
       <div className="flex items-center justify-between py-5">
         <div className="flex flex-shrink-0 items-center">
           <Link href="/" className="flex items-center">
-            <img 
+            <Image 
               src="/profile.jpg" 
               alt="Logo" 
               width={100} 
