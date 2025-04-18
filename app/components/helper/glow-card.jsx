@@ -37,8 +37,7 @@ const GlowCard = ({ children , identifier}) => {
 
         let ANGLE =
           (Math.atan2(event?.y - CARD_CENTER[1], event?.x - CARD_CENTER[0]) *
-            180) /
-          Math.PI;
+            180) / Math.PI;
 
         ANGLE = ANGLE < 0 ? ANGLE + 360 : ANGLE;
 
@@ -49,19 +48,15 @@ const GlowCard = ({ children , identifier}) => {
     document.body.addEventListener('pointermove', UPDATE);
 
     const RESTYLE = () => {
-      CONTAINER.style.setProperty('--gap', CONFIG.gap);
-      CONTAINER.style.setProperty('--blur', CONFIG.blur);
-      CONTAINER.style.setProperty('--spread', CONFIG.spread);
-      CONTAINER.style.setProperty(
-        '--direction',
-        CONFIG.vertical ? 'column' : 'row'
-      );
+      CONTAINER?.style.setProperty('--gap', CONFIG.gap);
+      CONTAINER?.style.setProperty('--blur', CONFIG.blur);
+      CONTAINER?.style.setProperty('--spread', CONFIG.spread);
+      CONTAINER?.style.setProperty('--direction', CONFIG.vertical ? 'column' : 'row');
     };
 
     RESTYLE();
     UPDATE();
 
-    // Cleanup event listener
     return () => {
       document.body.removeEventListener('pointermove', UPDATE);
     };
