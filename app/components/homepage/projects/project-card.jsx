@@ -31,9 +31,9 @@ function ProjectCard({ project }) {
 
           <div>
             <span className="ml-4 lg:ml-8 mr-2 text-white">name:</span>
-            <span className="text-gray-400">'</span>
+            <span className="text-gray-400">&apos;</span>
             <span className="text-amber-300">{project.name}</span>
-            <span className="text-gray-400">',</span>
+            <span className="text-gray-400">&apos;,</span>
           </div>
 
           <div className="ml-4 lg:ml-8 mr-2">
@@ -42,10 +42,8 @@ function ProjectCard({ project }) {
             {
               project.tools.map((tag, i) => (
                 <React.Fragment key={i}>
-                  <span className="text-amber-300">'{tag}'</span>
-                  {
-                    i < project.tools.length - 1 && <span className="text-gray-400">, </span>
-                  }
+                  <span className="text-amber-300">&apos;{tag}&apos;</span>
+                  {i < project.tools.length - 1 && <span className="text-gray-400">, </span>}
                 </React.Fragment>
               ))
             }
@@ -54,13 +52,13 @@ function ProjectCard({ project }) {
 
           <div>
             <span className="ml-4 lg:ml-8 mr-2 text-white">myRole:</span>
-            <span className="text-orange-400">'{project.role}'</span>
+            <span className="text-orange-400">&apos;{project.role}&apos;</span>
             <span className="text-gray-400">,</span>
           </div>
 
           <div className="ml-4 lg:ml-8 mr-2">
             <span className="text-white">description:</span>
-            <span className="text-cyan-400"> '{project.description}'</span>
+            <span className="text-cyan-400"> &apos;{project.description}&apos;</span>
             <span className="text-gray-400">,</span>
           </div>
 
@@ -78,13 +76,15 @@ function ProjectCard({ project }) {
             <div className="ml-4 lg:ml-8 mr-2">
               <span className="text-white">demo:</span>
               <a href={project.demo} target="_blank" rel="noopener noreferrer" className="text-blue-400 underline ml-2">
-                Live Site
+                Live
               </a>
               <span className="text-gray-400">,</span>
             </div>
           )}
 
-          <div><span className="text-gray-400">{'};'}</span></div>
+          <div>
+            <span className="text-gray-400">{'}'}</span>
+          </div>
         </code>
       </div>
     </div>

@@ -35,7 +35,7 @@ function ContactSection() {
           Accept: "application/json",
         },
         body: JSON.stringify({
-          access_key: "31e6cbde-a575-49df-bbd6-05922d01c96e", // Replace with your actual access key
+          access_key: "31e6cbde-a575-49df-bbd6-05922d01c96e",
           name: formData.name,
           email: formData.email,
           message: formData.message,

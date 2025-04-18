@@ -1,5 +1,6 @@
 // @flow strict
 import Link from "next/link";
+import Image from "next/image";
 
 
 function Navbar() {
@@ -11,6 +12,8 @@ function Navbar() {
             <img 
               src="/profile.jpg" 
               alt="Logo" 
+              width={100} 
+              height={40}
               className="h-12 w-12 rounded-full object-cover"
             />
             <span className="ml-3 text-[#16f2b3] text-3xl font-bold">Sharath Kumar Reddy</span>
