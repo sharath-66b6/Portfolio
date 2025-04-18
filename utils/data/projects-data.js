@@ -38,7 +38,7 @@ export const projectsData = [
         id: 4,
         name: 'GhostBrowse',
         description: "Designed and pitched GhostBrowse, a secure, disposable cloud-powered browser solution that isolates online sessions to prevent cyber threats, with a freemium model, strategic go-to-market plan, and scalable roadmap for global impact.",
-        tools: ['Docker','Cloud services','Virtualization','Node'],
+        tools: ['Docker','Cloud services','Virtualization','python'],
         role: 'Virtual Bowser Developer',
         code: 'https://github.com/sharath-66b6/GhostBrowse2',
         demo: '',
