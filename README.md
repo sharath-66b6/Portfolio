@@ -45,7 +45,6 @@ Here are some of the exciting projects I’ve worked on:
 | **TensorFlow**      | ⭐⭐⭐⭐          | AI & ML models                              |
 | **PyTorch**         | ⭐⭐⭐⭐          | Deep Learning                              |
 | **SQL**             | ⭐⭐⭐⭐          | Database Management, Query Optimization    |
-| **PySpark**         | ⭐⭐⭐⭐          | Big Data Processing                        |
 | **HTML/CSS**        | ⭐⭐⭐⭐⭐         | Web Design, UI/UX                          |
 | **Git**             | ⭐⭐⭐⭐⭐         | Version Control, Collaboration             |
 | **Docker**          | ⭐⭐⭐⭐          | Containerization                           |
